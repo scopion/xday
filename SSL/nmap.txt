@@ -1,0 +1,1 @@
+nmap -sV -PS443 --open --script=ssl-heartbleed -iR 0

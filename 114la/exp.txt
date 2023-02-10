@@ -1,0 +1,10 @@
+先获取后台权限
+以下是拿shell的方法，下面的都可以拿：
+
+名站首行：HTML内输入一句话，提交后一句话木马位于admin/data/cache/cache_mztop.php
+
+名站轮播：站点网址后输入一句话，提交后一句话木马位于admin/data/cache/cache_famous_loop.php
+
+名站切换：ifreme网址后输入一句话，提交后一句话木马位于admin/data/cache/cache_famous_tab.php
+
+首页实用工具：工具网址后输入一句话，提交后一句话木马位于admin/data/cache/cache_index_tool.php

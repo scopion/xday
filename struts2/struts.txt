@@ -1,0 +1,45 @@
+http://sms.100tal.com/login/getVerify.action    运维部-刘朋博  加waf 月底下线
+http://sms-web.100tal.com/login/getVerify.action  运维部-刘朋博  加waf 月底下线
+http://app1.sms.100tal.com/login/login.action   运维部-刘朋博  加waf 月底下线
+http://app2.sms.100tal.com/login/login.action   运维部-刘朋博  加waf 月底下线
+http://web1.sms.100tal.com/login/getVerify.action  运维部-刘朋博  加waf 月底下线
+http://app3.sms.100tal.com/login/toWelcomePage.action  运维部-刘朋博  加waf 月底下线
+http://web2.sms.100tal.com/login/getVerify.action  运维部-刘朋博  加waf 月底下线
+https://bi.izhikang.com/xesbi/login/loginRedirect.action  智康事业部-王酌  已经限制vpn 和办公网访问，后续下线
+https://devapiutil.jiaoyanyun.com/rest/getCloudPaperEditUrl.action  教研云-娄小厂
+https://qt010.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴   一月四号下线 目前VPN限制
+https://ht010.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://qt021.mobby.cn/mobby/adminLogin!validateVerifyCode.action   新励步-徐明兴    一月四号下线 目前VPN限制
+https://ht021.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://qt.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://ht.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://qt020.mobby.cn/mobby/serviceCenterLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://ht020.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://qt0755.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://qt025.mobby.cn/mobby/adminLogin!validateVerifyCode.action  新励步-徐明兴    一月四号下线 目前VPN限制
+https://ht025.mobby.cn/mobby/adminLogin!validateVerifyCode.action   新励步-徐明兴    一月四号下线 目前VPN限制
+http://shmobbyadmin.mobby.cn/user/doLogin.action  新励步-徐明兴    一月四号下线
+http://gzmobbyadmin.mobby.cn/user/doLogin.action  新励步-徐明兴    一月四号下线
+http://njmobbyadmin.mobby.cn/user/doLogin.action  新励步-徐明兴    一月四号下线
+
+https://wxcf.speiyou.com/wxchafen/login!toLogin.action  培优总部-罗凯
+http://zhengshuht.huabeisai.com/zhengshuxt/login!login.action  培优总部-罗凯
+http://zhengshu.huabeisai.com/zhengshuxt/awards!indexData.action  培优总部-罗凯
+http://chaxun.speiyou.com/Chaxun/qt/login!login.action  培优总部-罗凯
+http://kqcard.speiyou.com/attendance_card/login!login.action  培优总部-郎伍旭
+http://zhengshu.speiyou.com/zhengshuxt/awards!indexDatas.action  培优总部-罗凯
+
+
+
+以下是wiki系统，忽略
+http://maint.100tal.com/opensearch/osd.action   
+https://wiki.speiyou.cn/opensearch/osd.action
+https://sswiki.speiyou.com/opensearch/osd.action
+http://wiki.haibian.com/opensearch/osd.action
+https://wiki.zhiyinlou.com/opensearch/osd.action
+http://wiki.xesapp.com/opensearch/osd.action
+http://confluence.haibian.com/opensearch/osd.action
+https://wiki-test.zhiyinlou.com/opensearch/osd.action
+http://wiki.crp.shunshunliuxue.com/opensearch/osd.action
+http://wiki.jiaoyanyun.com/opensearch/osd.action
+https://wiki.jiaoyanyun.com/opensearch/osd.action

@@ -1,0 +1,55 @@
+Setup
+python setup.py install
+
+Usage
+-Start with
+
+NoSQLMap
+NoSQLMap uses a menu based system for building attacks. Upon starting NoSQLMap you are presented with with the main menu:
+nosqlmap使用一个菜单系统来引导攻击。在启动NOSQLMAP的时候有主菜单
+1-Set options (do this first)
+2-NoSQL DB Access Attacks
+3-NoSQL Web App attacks
+4-Scan for Anonymous MongoDB Access
+x-Exit
+Explanation of options:
+
+1. Set target host/IP-The target web server (i.e. www.google.com) or MongoDB server you want to attack.
+设置目标域名/IP地址WEB服务或MongoDB服务
+2. Set web app port-TCP port for the web application if a web application is the target.
+如果目标是WEB应用程序，设置WEB应用程序的TCP端口
+3. Set URI Path-The portion of the URI containing the page name and any parameters but NOT the host name (e.g. /app/acct.php?acctid=102).
+设置URI路径和任何参数，不包含HOST名
+4. Set HTTP Request Method (GET/POST)-Set the request method to a GET or POST; Presently only GET is implemented but working on implementing POST requests exported from Burp. 
+设置GET/POST方法。目前为止只支持GET方法，但POST方法请从BURP发出。
+5. Set my local Mongo/Shell IP-----Set this option 
+if attacking a MongoDB instance directly to the IP of a target Mongo installation to clone victim databases to or open Meterpreter shells to.
+如果直接攻击目标IP的话，为了脱裤或者打开命令行，要设置本地MONGO/SHELL 的IP。
+6. Set shell listener port-If opening Meterpreter shells, specify the port.
+如果打开METERPRETER SHELL的话 设置shell 监听指定的端口  
+7. Load options file-Load a previously saved set of settings for 1-6.
+加载以前在1-6步的设置
+8. Load options from saved Burp request-Parse a request saved from Burp Suite and populate the web application options.
+从已经保存的burp请求中加载设置项并补充在WEB应用设置上。
+9. Save options file-Save settings 1-6 for future use.
+保存1-6的设置以便将来再用。
+x. Back to main menu-Use this once the options are set to start your attacks.
+回到主菜单以便开始攻击。
+nce options are set head back to the main menu and select DB access attacks or web app attacks as appropriate for whether you are attacking a NoSQL management port or web application. 
+The rest of the tool is "wizard" based and fairly self explanatory, but send emails to nosqlmap@gmail.com or find me on Twitter
+ [@tcstoolHax0r](https://twitter.com/tcstoolHax0r) if you have any questions or suggestions. 
+nce 选项设置头回到主菜单并选择 DB 访问攻击或 web 应用程序攻击酌情为是否你正在攻击一个 NoSQL 管理端口或 web 应用程序。
+其余的工具是基于"向导"和相当自我解释，如果你有任何疑问或建议向 nosqlmap@gmail.com 发送电子邮件或twitter我 上 [@tcstoolHax0r] （https://twitter.com/tcstoolHax0r） 。
+Video
+=====
+
+NoSQLMap MongoDB Management Attack Demo.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=xSFi-jxOBwM" target="_blank"><img src="http://img.youtube.com/vi/xSFi-jxOBwM/0.jpg" alt="NoSQLMap MongoDB Management Attack Demo" width="240" height="180" border="10" /></a> 
+
+Contribute
+==========
+
+If you'd like to contribute, please create [new issue](https://github.com/tcstool/NoSQLMap/issues) or [pull request](https://github.com/tcstool/NoSQLMap/pulls).
+
+

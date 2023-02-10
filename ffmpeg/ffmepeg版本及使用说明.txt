@@ -1,0 +1,9 @@
+FFmpeg 3.2.2、3.2.5和2.6.8版本受影响。原理：利用包含外部文件援引的HLS播放列表，导致可任意读取本地文件
+
+2) 运行脚本：python3 gen_xbin_avi.py file:///etc/passwd （要查看的文件） sxcurity.avi （生成的视频名称，随便写）
+
+3) 访问https://arxius.io，上传sxcurity.avi
+
+4) 等待上传处理视频
+
+5) 录像处理完成后，点击播放就可以看到/etc/passwd的内容

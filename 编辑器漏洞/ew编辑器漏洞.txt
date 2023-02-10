@@ -1,0 +1,9 @@
+
+
+关键字：inurl:job_select.asp
+        inurl:product_read.asp?Shop_id=
+        inurl:szwyadmin/login.asp
+
+后台：admin/ewebeditor/admin_login.asp             ewebeditor/admin_login.asp
+数据库：admin/ewebeditor/db/ewebeditor.mdb           editor/db/ewebeditor.mdb    
+默认帐号密码：admin      yzwcf606253

